@@ -10,7 +10,7 @@ import android.widget.Toast
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main1)
         val tvRiddle = findViewById<TextView>(R.id.tv_riddle)
         val edAnswer = findViewById<EditText>(R.id.ed_answer)
         val btnRiddle = findViewById<Button>(R.id.btn_riddle)
